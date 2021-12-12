@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Public GoIT Модуль2 (стили CSS)
+# goit-markup-hw-01
+GoIT Модуль1 (разметка HTML)
