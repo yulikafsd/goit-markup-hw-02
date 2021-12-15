@@ -27,9 +27,8 @@ body {
 
 .link {
   text-decoration: none;
-  font-style: inherit;
+  font-style: normal;
 }
-/* Вопрос ментору: здесь лучше стиль inherit или normal? */
 
 /* Logo */
 .nav-logo {
@@ -40,7 +39,7 @@ body {
   line-height: 1.19;
 }
 
-/* Акцент и текущая страница */
+/* Акцент, текущая страница */
 
 .accent {
   color: var(--accent-color);
@@ -106,10 +105,11 @@ body {
 }
 
 /* Заголовки секций main
-  Заголовок особенностей скрыть! */
+  Заголовок особенностей и портфолио скрыть! */
 .features-title,
 .profile-title,
-.team-title {
+.team-title,
+.portfolio-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -174,4 +174,39 @@ body {
 
 .footer-link.alfa:hover {
   color: var(--primary-white-color);
+}
+
+/* Портфолио. Скрыть заголовок!!! */
+
+.filter-button {
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+
+.filter-button:hover {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.filter-button.filter-active {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-subtitle {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filter-name {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.87;
 }
