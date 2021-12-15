@@ -1,0 +1,161 @@
+:root {
+  /* Палитра цветов текста и фона */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --secondary-white-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --section-bg-color: #f5f4fa;
+  --footer-bg-color: #2f303a;
+}
+
+/* Базовые установки стилей в body */
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  font-style: inherit;
+}
+/* Вопрос ментору: здесь лучше стиль inherit или normal? */
+
+/* Logo */
+.nav-logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+/* Акцент и текущая страница */
+
+.accent {
+  color: var(--accent-color);
+}
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+/* Header */
+
+.nav-link {
+  color: var(--title-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.contact-link:hover {
+  color: var(--accent-color);
+}
+
+/* Секция Hero
+  Временный цвет фона для удобства просмотра 
+  белого заголовка: */
+
+.hero {
+  background-color: var(--footer-bg-color);
+  text-align: center;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* Заголовки секций main
+  Заголовок особенностей скрыть! */
+.features-title,
+.profile-title,
+.team-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Секция Особенности */
+.features-subtitle {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Секция Команда */
+
+.team {
+  background-color: var(--section-bg-color);
+}
+
+.team-subtitle {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Футер */
+
+.footer {
+  background-color: var(--footer-bg-color);
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-link {
+  color: var(--primary-white-color);
+}
+
+.footer-link.alfa {
+  color: var(--secondary-white-color);
+}
