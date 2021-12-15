@@ -67,7 +67,9 @@ body {
 }
 
 .nav-link:hover,
-.contact-link:hover {
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -92,11 +94,15 @@ body {
 .hero-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+}
+
+.hero-button:hover {
+  background-color: #2981c7;
 }
 
 /* Заголовки секций main
@@ -131,11 +137,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 .team-text {
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
 
 /* Футер */
@@ -156,6 +164,14 @@ body {
   color: var(--primary-white-color);
 }
 
+.footer-link:hover {
+  color: var(--secondary-white-color);
+}
+
 .footer-link.alfa {
   color: var(--secondary-white-color);
+}
+
+.footer-link.alfa:hover {
+  color: var(--primary-white-color);
 }
