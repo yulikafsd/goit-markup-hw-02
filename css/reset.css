@@ -1,26 +1,12 @@
 /* Задаємо властивості боді */
 body {
   font-family: var(--font-family-body);
-  font-weight: var(--font-weight-regular);
   font-size: 16px;
+  font-weight: var(--font-weight-regular);
   line-height: var(--line-height-body);
   letter-spacing: 0.02em;
-
   color: var(--body-text-color);
   background-color: var(--white-background-color);
-}
-
-/* Прибираємо підкреслення та наслідуємо колір у всіх посилань */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-/* Прибираємо маркери та відступи у списків */
-ul, ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 /* Скидаємо відступи заголовків */
@@ -36,15 +22,28 @@ img {
   height: auto;      /* Зберігаємо пропорції */
 }
 
+/* Прибираємо підкреслення та наслідуємо колір у всіх посилань */
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Прибираємо маркери та відступи у списків */
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Нормалізуємо кнопки */
-button {
+.button {
   cursor: pointer;          /* Змінюємо курсор при наведенні */
   border: none;             /* Прибираємо рамку */
   background-color: transparent; /* Робимо фон прозорим */
   padding: 0;               /* Прибираємо внутрішні відступи */
 }
 
-/* Прибираємо дефолтний курсив у тегу address */
-address {
+/* Прибираємо дефолтний курсив у address */
+.address {
   font-style: normal;
 }
