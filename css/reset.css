@@ -5,6 +5,9 @@ body {
   font-size: 16px;
   line-height: var(--line-height-body);
   letter-spacing: 0.02em;
+
+  color: var(--body-text-color);
+  background-color: var(--white-background-color);
 }
 
 /* Прибираємо підкреслення та наслідуємо колір у всіх посилань */
