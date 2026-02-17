@@ -19,9 +19,12 @@
     --font-weight-medium: 700; 
     --font-weight-bold: 900;
 
-    --line-height-title: 1.07;
+    --line-height-title: 1.07143;
     --line-height-body: 1.5;
     --line-height-small: 1.16;
+
+    --letter-spacing-basic: 0.02em;
+    --letter-spacing-second: 0.04em;
 }
 
 /* all repeated values -> стандартні розміри шрифту, радіус заокруглення рамок, загальні відступи та поля, ширини контейнера, точки перелому для адаптивної верстки тощо */
