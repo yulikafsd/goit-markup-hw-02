@@ -1,6 +1,15 @@
-/* (Прибираємо підкреслення та) наслідуємо колір у всіх посилань */
+/* Задаємо властивості боді */
+body {
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-regular);
+  font-size: 16px;
+  line-height: var(--line-height-body);
+  letter-spacing: 0.02em;
+}
+
+/* Прибираємо підкреслення та наслідуємо колір у всіх посилань */
 a {
-    /* text-decoration: none; */
+    text-decoration: none;
     color: inherit;
 }
 
