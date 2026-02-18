@@ -1,9 +1,3 @@
-/* RESET */
-
-* {
-    box-sizing: border-box;
-}
-
 /* Задаємо властивості боді */
 body {
     font-family: var(--font-family-body);
@@ -37,7 +31,6 @@ h1, h2, h3, h4, h5, h6, p {
   cursor: pointer;          /* Змінюємо курсор при наведенні */
   border: none;             /* Прибираємо рамку */
   background-color: transparent; /* Робимо фон прозорим */
-  padding: 0;               /* Прибираємо внутрішні відступи */
 }
 
 /* Прибираємо дефолтний курсив у address */
@@ -80,8 +73,6 @@ h1, h2, h3, h4, h5, h6, p {
 
     --button-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     --card-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-
-    --border-radius: 0 0 4px 4px;
 }
 
 /* Header */
@@ -94,13 +85,9 @@ h1, h2, h3, h4, h5, h6, p {
     font-family: var(--font-family-logo);
     font-weight: var(--font-weight-bold);
     font-size: 18px;
-    line-height: var(--line-height-small);
+    line-height: 1.17;
     letter-spacing: var(--letter-spacing-logo);
     text-transform: uppercase;
-}
-
-.logo {
-    line-height: var(--line-heigth-small);
     color: var(--primary-brand-color);
 }
 
@@ -132,14 +119,12 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     font-weight: var(--font-weight-bold);
     font-size: 56px;
-    line-height: var(--line-height-title);
+    line-height: 1.07;
     letter-spacing: var(--letter-spacing-basic);
     color: var(--white-background-color);
 }
 
 .button {
-    width: 169px;
-    height: 56px;
     font-weight: var(--font-weight-medium);
     letter-spacing: var(--letter-spacing-second);
     line-height: var(--line-height-body);
@@ -169,7 +154,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .team .list-item {
-    border-radius: 0 0 4px 4px;
     background-color: #FFFFFF;
 }
 
