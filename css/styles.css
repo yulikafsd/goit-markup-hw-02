@@ -6,14 +6,6 @@
     color: var(--dark-color);
 }
 
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
-}
-
 .small {
     font-weight: 400;
     font-size: 12px;
@@ -37,6 +29,7 @@ h3 {
     color: var(--primary-brand-color);
 } */ 
 
+/* Header */
 
 .header {
     background-color: var(--accent-color);
@@ -74,6 +67,8 @@ h3 {
     color: var(--pressed-state-color);
 }
 
+/* Hero */
+
 .hero {
     background-color: var(--dark-color);
 }
@@ -102,6 +97,46 @@ h3 {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--pressed-state-color);
 }
+
+/* About Us */
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* Sections */
+
+.team {
+    background-color: var(--light-mode-color);
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
+
+/* Footer */
 
 .footer {
     background-color: var(--dark-color);
